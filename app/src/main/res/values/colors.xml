@@ -3,10 +3,12 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="orange">#f69724</color>
-    <color name="cream">#efdec9</color>
-    <color name="lightCream">#ded9d1</color>
+    <color name="cream">#EADDC8</color>
+    <color name="lightCream">#FDF6EB</color>
     <color name="grey">#8d8d8d</color>
     <color name="lightGrey">#f6f6f6</color>
+    <color name="green">#064C3E</color>
     <color name="brown">#7e4616</color>
-    <color name="darkBrown">#220c01</color>
+    <color name="lightBrown">#E1C9A2</color>
+    <color name="darkBrown">#7E4616</color>
 </resources>
