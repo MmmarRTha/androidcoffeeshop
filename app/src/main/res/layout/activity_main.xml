@@ -272,14 +272,14 @@
                         android:layout_width="22dp"
                         android:layout_height="22dp"
                         android:layout_gravity="center"
-                        app:srcCompat="@drawable/btn_1"
+                        app:srcCompat="@drawable/btn_4"
                         app:tint="@color/white" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="3dp"
-                        android:text="Explorer"
+                        android:text="My Order"
                         android:textAlignment="center"
                         android:textColor="@color/white" />
                 </LinearLayout>
@@ -295,14 +295,14 @@
                         android:layout_width="22dp"
                         android:layout_height="22dp"
                         android:layout_gravity="center"
-                        app:srcCompat="@drawable/btn_1"
+                        app:srcCompat="@drawable/btn_5"
                         app:tint="@color/white" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="3dp"
-                        android:text="Explorer"
+                        android:text="Profile"
                         android:textAlignment="center"
                         android:textColor="@color/white" />
                 </LinearLayout>
