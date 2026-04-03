@@ -48,10 +48,10 @@ class CategoryAdapter(val items: MutableList<CategoryDomain>) :
             }, 500)
         }
         if (selectedPosition == position) {
-            holder.binding.titleCat.setBackgroundColor(R.drawable.brown_full_corner)
+            holder.binding.titleCat.setBackgroundResource(R.drawable.brown_full_corner)
             holder.binding.titleCat.setTextColor(ContextCompat.getColor(context, R.color.white))
         } else {
-            holder.binding.titleCat.setBackgroundColor(R.drawable.cream_full_corner)
+            holder.binding.titleCat.setBackgroundResource(R.drawable.cream_full_corner)
             holder.binding.titleCat.setTextColor(ContextCompat.getColor(context, R.color.darkBrown))
         }
     }
