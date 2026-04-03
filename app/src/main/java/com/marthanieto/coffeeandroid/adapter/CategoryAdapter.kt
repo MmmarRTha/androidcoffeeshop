@@ -9,9 +9,9 @@ import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.marthanieto.coffeeandroid.R
 import com.marthanieto.coffeeandroid.databinding.ViewholderCategoryBinding
-import com.marthanieto.coffeeandroid.domain.CategoryDomain
+import com.marthanieto.coffeeandroid.domain.CategoryModel
 
-class CategoryAdapter(val items: MutableList<CategoryDomain>) :
+class CategoryAdapter(val items: MutableList<CategoryModel>) :
     RecyclerView.Adapter<CategoryAdapter.Viewholder>() {
     private lateinit var context: Context
     private var selectedPosition = -1
