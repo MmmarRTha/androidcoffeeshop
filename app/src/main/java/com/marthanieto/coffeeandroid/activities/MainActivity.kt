@@ -4,10 +4,12 @@ import android.os.Bundle
 import android.view.View
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.bumptech.glide.Glide
 import com.marthanieto.coffeeandroid.ViewModel.MainViewModel
 import com.marthanieto.coffeeandroid.adapter.CategoryAdapter
+import com.marthanieto.coffeeandroid.adapter.ItemsAdapter
 import com.marthanieto.coffeeandroid.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -22,6 +24,17 @@ class MainActivity : AppCompatActivity() {
 
         initCategory()
         initBanner()
+        initPopular()
+    }
+
+    private fun initPopular() {
+        binding.progressBarPopular.visibility = View.VISIBLE
+        viewModel.loadPopular().observeForever {
+            binding.popularView.layoutManager = GridLayoutManager(this, 2)
+            binding.popularView.adapter = ItemsAdapter(it)
+            binding.progressBarPopular.visibility = View.GONE
+        }
+        viewModel.loadPopular()
     }
 
     private fun initBanner() {
