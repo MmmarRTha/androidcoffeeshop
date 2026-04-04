@@ -22,6 +22,7 @@ class ItemsAdapter(val items: MutableList<ItemsModel>) :
         p0: ViewGroup,
         p1: Int
     ): ItemsAdapter.Viewholder {
+        context = p0.context
         val binding = ViewholderItemBinding.inflate(LayoutInflater.from(context), p0, false)
         return Viewholder(binding)
     }
