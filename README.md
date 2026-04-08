@@ -1,8 +1,6 @@
 # Coffee Android App
 
-A modern, responsive Android application for browsing coffee products, built with Kotlin and
-Firebase. This project demonstrates clean architecture principles and real-time data integration,
-making it a great showcase for professional Android development skills.
+A modern Android application for browsing coffee products, built with Kotlin and Firebase. This project reflects my transition into Android development, showcasing my learning in clean architecture and real-time data integration while building practical, user-focused mobile experiences.
 
 ## 🚀 Key Features
 
