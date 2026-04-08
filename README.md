@@ -37,6 +37,7 @@ The project follows a modular structure based on Clean Architecture:
 - `adapter/`: Bridges between data sources and RecyclerViews.
 
 ## 📱 Screenshots
+<img width="1920" height="1080" alt="Screenshot_20260408_133632" src="https://github.com/user-attachments/assets/346f9667-6087-4a5a-a18c-b60bf62a3905" />
 
 ---
 *Developed by Martha M. Nieto*
